@@ -2,6 +2,7 @@
     class="paystack-pay-button"
     [ngStyle]="style"
     [ngClass]="className"
+    [payment_method]="'account'"
     (click)="madePayment()">
         {{text || 'Pay'}}
 </button>
